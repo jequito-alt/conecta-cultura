@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  color: #16324f;
+  color: #311f99;
   background-color: #f4f8fb;
 }
 
@@ -17,7 +17,7 @@ footer {
 
 header {
   color: #ffffff;
-  background-color: #145da0;
+  background-color: #282c30;
 }
 
 button {
@@ -81,3 +81,62 @@ img {
 .salto-contenido:focus {
   position: static;
 }
+.tabla-contenedor {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #cec3c3;
+}
+
+caption {
+  padding: 0.75rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  border: 1px solid #0d0e0f;
+  text-align: left;
+}
+
+thead {
+  color: #ffffff;
+  background-color: #0f1011;
+}
+
+.formulario {
+  display: grid;
+  gap: 1rem;
+  max-width: 42rem;
+}
+
+.formulario fieldset {
+  display: grid;
+  gap: 0.75rem;
+  padding: 1rem;
+  border: 1px solid #080808;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+  width: 100%;
+  padding: 0.7rem;
+  font: inherit;
+}
+
+.formulario input[type="radio"],
+.formulario input[type="checkbox"] {
+  width: auto;
+}
+
+
+
+
+
